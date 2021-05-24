@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@ant-design/icons": "4.5.0",
+    "unfetch": "4.2.0"
+  }
+}
