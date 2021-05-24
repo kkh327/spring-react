@@ -9,7 +9,7 @@ class SpringfullstackApplicationTests {
 
     @Test
     void contextLoads () {
-        Assertions.fail("failed test");//build
+        //Assertions.fail("failed test");//make test passed
     }
 
 }
