@@ -1,6 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-import {Button, Radio, Layout, Menu, Breadcrumb, Table, Spin, Empty, Tag, Badge, Avatar, Popconfirm, Image} from "antd";
+import {
+    Button,
+    Radio,
+    Layout,
+    Menu,
+    Breadcrumb,
+    Table,
+    Spin,
+    Empty,
+    Tag,
+    Badge,
+    Avatar,
+    Popconfirm,
+    Image,
+    Divider
+} from "antd";
 import {deleteStudent, getAllStudents} from "./client";
 import {useState, useEffect} from "react";
 import {
@@ -210,6 +225,7 @@ function App() {
                 <Footer style={{textAlign: 'center'}}>
                     <Image width={75} src="https://upload.wikimedia.org/wikipedia/commons/5/57/Binance_Logo.png"/>
                 </Footer>
+                <Divider> <a href="https://www.youtube.com" target="_blank"> Access yt channel </a></Divider>
             </Layout>
         </Layout>
     );
